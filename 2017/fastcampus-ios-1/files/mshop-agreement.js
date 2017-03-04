@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){jQuery(document).ready(function(){jQuery("#mshop_agreement_form").submit(function(){var a=jQuery(".mshop_agreement",jQuery(this)).not(":checked");if(a.length>0){var b="";return jQuery(a).each(function(a){0!=a&&(b+=", "),b+=jQuery("strong",jQuery(this).parent()).text()}),alert(b+_mshop_agreement_settings.agree_msg),!1}})})});
